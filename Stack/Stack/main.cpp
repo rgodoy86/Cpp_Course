@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  OOP
+//  Stack
 //
 //  Created by Raphael Godoy on 28.04.22.
 //
