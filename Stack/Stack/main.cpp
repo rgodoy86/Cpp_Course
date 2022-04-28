@@ -6,9 +6,15 @@
 //
 
 #include <iostream>
+#include "Stack.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    Stack s1;
+    s1.push(5);
+    s1.push(7);
+    s1.push(9);
+    
+    std::cout << "Pop: " << s1.pop() << std::endl;
+    std::cout << "Pop: " << s1.pop() << std::endl;
+    std::cout << "Pop: " << s1.pop() << std::endl;
 }
