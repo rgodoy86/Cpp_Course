@@ -61,7 +61,7 @@ int SubStack::pop(void){
         return val;
     //}
 }
-
+ 
 //Getters
 int SubStack::getSum(void){
     return _sum;
