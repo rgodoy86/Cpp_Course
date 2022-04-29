@@ -7,7 +7,8 @@
 
 #include "Stack.hpp"
 
-// Constructor & Destructor
+// ***** CLASS STACK *****
+// Constructor
 Stack::Stack(void){
     _pointer = 0;
     _size = 100;
@@ -16,16 +17,17 @@ Stack::Stack(void){
         _stack[i] = 0;
     }
 };
-//Stack::˜Stack(void){};
-
 
 // Methods
+
+// Push
 void Stack::push(int value){
     if (_pointer < _size){
-    _stack[_pointer++] = value;
+        _stack[_pointer++] = value;
     }
 };
 
+// Pop
 int Stack::pop(void){
     if (_pointer > 0){
         _stack[_pointer] = 0;
@@ -34,3 +36,33 @@ int Stack::pop(void){
         return 0;
     }
 };
+
+// ***** CLASS SUBSTACK *****
+//Constructor
+SubStack::SubStack(void){
+    _sum = 0;
+}
+
+//Methods
+
+// Push
+void SubStack::push(int value){
+    //if(Stack::_pointer < Stack::_size){
+        _sum += value;
+        Stack::push(value);
+    //}
+}
+
+//Pop
+int SubStack::pop(void){
+    //if(Stack::_pointer > 0){
+        int val = Stack::pop();
+        _sum -= val;
+        return val;
+    //}
+}
+
+//Getters
+int SubStack::getSum(void){
+    return _sum;
+}

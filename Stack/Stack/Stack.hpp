@@ -10,9 +10,8 @@
 
 #include <stdio.h>
 
-
+// CLASS STACK
 class Stack{
-  
 private:
     int _size;
     int _stack[100];
@@ -26,7 +25,16 @@ public:
     int pop(void);
 };
 
-
+// CLASS SUBSTACK
+class SubStack:Stack{
+private:
+    int _sum;
+public:
+    SubStack(void);
+    void push(int value);
+    int pop(void);
+    int getSum(void);
+};
 
 
 
