@@ -32,7 +32,8 @@ StaticMethods::StaticMethods(void){
 }
 
 //Destructor
-StaticMethods::~StaticMethods(void){}
+StaticMethods::~StaticMethods(void){
+    --counter;}
 
 //Mandatory for static components
 int StaticMethods::counter = 0;
