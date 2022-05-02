@@ -19,6 +19,9 @@ public:
     // Atributes
     int value;
     
+    // Methods
+    void show();
+    
 };
 
 #endif /* Pointers_hp */

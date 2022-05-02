@@ -17,3 +17,8 @@ Pointer::Pointer(void){
 Pointer::~Pointer(void){
     std::cout << "Instance destroyed." << std::endl;
 }
+
+// Methods
+void Pointer::show(void){
+    std::cout << "Value currently is: " << value << std::endl;
+}
