@@ -10,6 +10,13 @@
 
 using namespace std;
 
+/*
+ * STATIC     function call STATIC     function - OK
+ * STATIC     function call NON-STATIC function - FAIL
+ * NON-STATIC function call STATIC     function - OK
+ * NON-STATIC function call NON-STATIC function - OK
+ */
+
 void function_static(void){
     static int var_static = 99;
     cout << "Variable Static: " << var_static++  << endl;
