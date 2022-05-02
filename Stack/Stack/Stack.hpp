@@ -19,7 +19,7 @@ private:
     
 public:
     Stack(void);
-    //˜Stack(void){};
+    ~Stack(void);
     
     void push(int value);
     int pop(void);
@@ -31,6 +31,7 @@ private:
     int _sum;
 public:
     SubStack(void);
+    ~SubStack(void);
     void push(int value);
     int pop(void);
     int getSum(void);

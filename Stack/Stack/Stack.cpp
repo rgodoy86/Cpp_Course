@@ -46,6 +46,9 @@ SubStack::SubStack(void){
     _sum = 0;
 }
 
+// Destructor
+SubStack::~SubStack(void){}
+
 //Methods
 
 // Push
