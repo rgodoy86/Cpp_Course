@@ -10,6 +10,8 @@
 
 class StaticComponent{
 public:
+    StaticComponent(void);
+    ~StaticComponent(void);
     static int static_component;
     int non_static_component;
     
@@ -21,7 +23,8 @@ class StaticMethods{
 private:
     static int counter;
 public:
-    StaticMethods(void){++counter;}
+    StaticMethods(void);
+    ~StaticMethods(void);
     static int get_counter(void);
 };
 #endif /* StaticClass_hpp */

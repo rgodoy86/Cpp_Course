@@ -10,7 +10,12 @@
 
 using namespace std;
 
-// *** STATIC COMPONENT CLASS ***
+// *** STATIC COMPONENT CLASS ***// Constructor
+StaticComponent::StaticComponent(void){}
+
+//Destructor
+StaticComponent::~StaticComponent(void){}
+
 //Mandatory for static components
 int StaticComponent::static_component = 0;
 
@@ -21,6 +26,13 @@ void StaticComponent::print(void){
 
 
 // *** STATIC METHOD CLASS ***
+// Constructor
+StaticMethods::StaticMethods(void){
+    ++counter;
+}
+
+//Destructor
+StaticMethods::~StaticMethods(void){}
 
 //Mandatory for static components
 int StaticMethods::counter = 0;
