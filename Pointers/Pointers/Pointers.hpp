@@ -11,10 +11,14 @@
 #include <iostream>
 
 class Pointer{
-
 public:
+    // Constructor and Destructor
     Pointer(void);
     ~Pointer(void);
+    
+    // Atributes
+    int value;
+    
 };
 
 #endif /* Pointers_hp */

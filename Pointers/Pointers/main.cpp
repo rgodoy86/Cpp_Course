@@ -14,7 +14,14 @@ int main(void) {
     ptr1 = new Pointer();
     ptr2 = new Pointer();
     
-    std::cout << "\n...Some code...\n" << std::endl;
+    std::cout << "\nAssigning values to the atribute:\n" << std::endl;
+    ptr1 -> value = 0;
+    ptr2 -> value = 2;
+    
+    std::cout << "ptr1: " << (ptr1 -> value) << std::endl;
+    std::cout << "ptr2: " << (ptr2 -> value) << std::endl;
+    
+    std::cout << std::endl;
     
     delete ptr1;
     delete ptr2;
