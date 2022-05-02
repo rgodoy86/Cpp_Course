@@ -18,6 +18,9 @@ Stack::Stack(void){
     }
 };
 
+// Destructor
+//Stack::˜Stack(void){}
+
 // Methods
 
 // Push
