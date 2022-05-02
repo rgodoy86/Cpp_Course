@@ -33,13 +33,15 @@ int main(void) {
     function_static();
     function_static();
     
-    // Class Static Test
-    StaticClass sc1, sc2;
+    // Class - Static Component
+    cout << "\nClass - Static Component vs Non Static Component" << endl;
+    
+    StaticComponent sc1, sc2;
     
     sc1.non_static_component = 10;
     sc2.non_static_component = 10;
     
-    cout << "\nClass Static Component vs Non Static Component" << endl;
+    
     sc1.print();
     sc1.print();
     sc1.print();
@@ -47,6 +49,18 @@ int main(void) {
     sc2.print();
     sc2.print();
     sc2.print();
+    
+    // Class - Static Methods
+    cout << "\nClass Static Methods vs Non Static Methods" << endl;
+    
+    //Class::get_counter()
+    cout << "Class::get_counter: " << StaticMethods::get_counter() << endl;
+    StaticMethods sm1;
+    //Class::get_counter()
+    cout << "Class::get_counter: " <<  StaticMethods::get_counter() << endl;
+    StaticMethods sm2;
+    // Instance.get_counter
+    cout << "sm2::get_counter: " <<  sm2.get_counter() << endl;
     
     return 0;
 }

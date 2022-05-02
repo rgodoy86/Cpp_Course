@@ -8,7 +8,7 @@
 #ifndef StaticClass_hpp
 #define StaticClass_hpp
 
-class StaticClass{
+class StaticComponent{
 public:
     static int static_component;
     int non_static_component;
@@ -16,4 +16,12 @@ public:
     void print(void);
 };
 
+
+class StaticMethods{
+private:
+    static int counter;
+public:
+    StaticMethods(void){++counter;}
+    static int get_counter(void);
+};
 #endif /* StaticClass_hpp */

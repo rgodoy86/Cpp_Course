@@ -10,10 +10,22 @@
 
 using namespace std;
 
+// *** STATIC COMPONENT CLASS ***
 //Mandatory for static components
-int StaticClass::static_component = 0;
+int StaticComponent::static_component = 0;
 
 //Methods
-void StaticClass::print(void){
+void StaticComponent::print(void){
     cout << "Static: " << static_component++ << " and Non Static: " << non_static_component++ << endl;
 }
+
+
+// *** STATIC METHOD CLASS ***
+
+//Mandatory for static components
+int StaticMethods::counter = 0;
+
+int StaticMethods::get_counter(){
+    return counter;
+}
+//Methods
