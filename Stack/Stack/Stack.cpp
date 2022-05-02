@@ -19,7 +19,7 @@ Stack::Stack(void){
 };
 
 // Destructor
-//Stack::˜Stack(void){}
+Stack::~Stack(void){}
 
 // Methods
 
