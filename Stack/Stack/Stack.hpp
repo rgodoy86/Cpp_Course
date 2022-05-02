@@ -19,7 +19,7 @@ private:
     
 public:
     Stack(void);
-    //˜Stack();
+    //˜Stack(void){};
     
     void push(int value);
     int pop(void);

@@ -28,7 +28,7 @@ int main(int argc, const char * argv[]) {
     std::cout << "Removing: " << s1.pop() << std::endl;
     
     // Testing the subclass "SubStack"
-    std::cout << "\nSuperclass \"Stack\"\n" << std::endl;
+    std::cout << "\nSubclass \"Stack\"\n" << std::endl;
     SubStack s2;
     
     // Adding some values into it
