@@ -7,8 +7,6 @@
 
 #ifndef Pointers_hpp
 #define Pointers_hpp
-#endif /* Pointers_hpp */
-
 
 #include <iostream>
 
@@ -19,4 +17,4 @@ public:
     ~Pointer(void);
 };
 
-
+#endif /* Pointers_hp */

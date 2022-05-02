@@ -6,6 +6,14 @@
 //
 
 #include "Pointers.hpp"
+#include <iostream>
 
-Pointer::Pointer(void){};
-Pointer::~Pointer(void){};
+// Constructor
+Pointer::Pointer(void){
+    std::cout << "Instance created." << std::endl;
+}
+
+// Destructor
+Pointer::~Pointer(void){
+    std::cout << "Instance destroyed." << std::endl;
+}
