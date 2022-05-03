@@ -22,7 +22,7 @@ Array::~Array(void){
 
 // Getters
 int Array::get(int index){
-    if (index > 0 && index < size){
+    if (index >= 0 && index < size){
         return values[index];
     }else{
         return -1;
@@ -31,9 +31,7 @@ int Array::get(int index){
 
 // Setters
 void Array::set(int index, int new_value){
-    if (index > 0 && index < size){
+    if (index >= 0 && index < size){
         values[index] = new_value;
     }
 }
-
-

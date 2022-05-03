@@ -44,8 +44,6 @@
 		AE0D3AD2282133680003DB47 = {
 			isa = PBXGroup;
 			children = (
-				AE0D3AE52821337E0003DB47 /* Array.cpp */,
-				AE0D3AE62821337E0003DB47 /* Array.hpp */,
 				AE0D3ADD282133680003DB47 /* Arrays_of_Pointers */,
 				AE0D3ADC282133680003DB47 /* Products */,
 			);
@@ -62,6 +60,8 @@
 		AE0D3ADD282133680003DB47 /* Arrays_of_Pointers */ = {
 			isa = PBXGroup;
 			children = (
+				AE0D3AE52821337E0003DB47 /* Array.cpp */,
+				AE0D3AE62821337E0003DB47 /* Array.hpp */,
 				AE0D3ADE282133680003DB47 /* main.cpp */,
 			);
 			path = Arrays_of_Pointers;
