@@ -19,3 +19,21 @@ Array::~Array(void){
     delete [] values;
     cout << "Array of size " << size << " ints destructed" << endl;
 }
+
+// Getters
+int Array::get(int index){
+    if (index > 0 && index < size){
+        return values[index];
+    }else{
+        return -1;
+    }
+}
+
+// Setters
+void Array::set(int index, int new_value){
+    if (index > 0 && index < size){
+        values[index] = new_value;
+    }
+}
+
+

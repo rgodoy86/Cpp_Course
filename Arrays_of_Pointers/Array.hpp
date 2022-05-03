@@ -17,12 +17,14 @@ class Array{
     int size;
     
 public:
-    // Constructor & Destructor
+    // Constructor and Destructor
     Array(int siz);
     ~Array(void);
+    
+    // Getters and Setters
+    int get(int index);
+    void set(int index, int new_value);
+    
 };
-
-
-
 
 #endif /* Array_hpp */
