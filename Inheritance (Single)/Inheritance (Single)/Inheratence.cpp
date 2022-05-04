@@ -7,6 +7,7 @@
 
 #include "Inheratence.hpp"
 
+// *** SUPER_CLASS ***
 // Getter
 int Super_Class::get(void){
     return storage;
@@ -16,3 +17,6 @@ int Super_Class::get(void){
 void Super_Class::set(int value){
     storage = value;
 }
+
+// *** SUB_CLASS ***
+

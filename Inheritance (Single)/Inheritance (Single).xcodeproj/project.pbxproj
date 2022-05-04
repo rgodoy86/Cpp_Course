@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AE0D3B0B2822D0BD0003DB47 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE0D3B0A2822D0BD0003DB47 /* main.cpp */; };
 		AE0D3B132822D0EC0003DB47 /* Inheratence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE0D3B112822D0EC0003DB47 /* Inheratence.cpp */; };
+		AE0D3B162822D54D0003DB47 /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE0D3B142822D54D0003DB47 /* Animal.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		AE0D3B0A2822D0BD0003DB47 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AE0D3B112822D0EC0003DB47 /* Inheratence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inheratence.cpp; sourceTree = "<group>"; };
 		AE0D3B122822D0EC0003DB47 /* Inheratence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Inheratence.hpp; sourceTree = "<group>"; };
+		AE0D3B142822D54D0003DB47 /* Animal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
+		AE0D3B152822D54D0003DB47 /* Animal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Animal.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				AE0D3B0A2822D0BD0003DB47 /* main.cpp */,
 				AE0D3B112822D0EC0003DB47 /* Inheratence.cpp */,
 				AE0D3B122822D0EC0003DB47 /* Inheratence.hpp */,
+				AE0D3B142822D54D0003DB47 /* Animal.cpp */,
+				AE0D3B152822D54D0003DB47 /* Animal.hpp */,
 			);
 			path = "Inheritance (Single)";
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			files = (
 				AE0D3B132822D0EC0003DB47 /* Inheratence.cpp in Sources */,
 				AE0D3B0B2822D0BD0003DB47 /* main.cpp in Sources */,
+				AE0D3B162822D54D0003DB47 /* Animal.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
