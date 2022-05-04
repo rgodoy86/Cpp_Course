@@ -18,7 +18,7 @@ int main(void) {
     ptr1 -> value = 0;
     ptr2 -> value = 2;
     
-    //Accessing atributes
+    //Accessing attributes
     std::cout << "ptr1: " << (ptr1 -> value) << std::endl;
     std::cout << "ptr2: " << (ptr2 -> value) << std::endl;
     std::cout << std::endl;
