@@ -50,6 +50,5 @@ int main(void) {
     
     delete arr_arrays[0];
     delete arr_arrays[1];
-    
     return 0;
 }
