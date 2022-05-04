@@ -9,6 +9,7 @@
 #include "Classes.hpp"
 
 int main(void) {
+    // Creating Collection instance
     Collection coll;
     return 0;
 }

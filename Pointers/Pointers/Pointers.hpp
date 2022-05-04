@@ -16,7 +16,7 @@ public:
     Pointer(void);
     ~Pointer(void);
     
-    // Atributes
+    // Attributes
     int value;
     
     // Methods
